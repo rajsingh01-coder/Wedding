@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wedding Navbar</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-container">
+            <a href="#" class="logo">John & Jane</a>
+            
+            <ul class="menu">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#savedate">Save Date</a></li>
+                <li><a href="#invitation">Invitation</a></li>
+                <li><a href="#events">Events</a></li>
+                <li><a href="#family">Family</a></li>
+                <li><a href="#rsvp">RSVP</a></li>
+                <li><a href="#memories">Memories</a></li>
+                <li><a href="#gifts">Gifts</a></li>
+                <li><a href="#contacts">Contacts</a></li>
+                <li><a href="#thanks">Thanks</a></li>
+            </ul>
+            
+            <div class="hamburger">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    </nav>
+
+        <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <!-- Image added via HTML as requested -->
+        <img src="hero4.avif" alt="Wedding couple" class="hero-image">
+        
+        <div class="hero-overlay"></div>
+        
+        <div class="hero-content">
+            <h1>He & She</h1>
+            <h2>We're Getting Married!</h2>
+            <p>After seven wonderful years together, we can't wait to celebrate our love with all of you. Join us as we begin this new chapter of our lives surrounded by family and friends.</p>
+            <div class="hero-date">15 October 2023 • Grand Palace, Mumbai</div>
+        </div>
+    </section>
+
+        <!-- About Us Section -->
+    <section class="about-section" id="about">
+        <h2 class="section-title">Our Story</h2>
+        
+        <div class="couple-container">
+            <!-- Groom Section -->
+            <div class="person">
+                <h3 class="person-title">John</h3>
+                <div class="image-container">
+                    <img src="home05.jpg" 
+                         alt="John - The Groom" 
+                         class="main-img">
+                    <img src="home05.jpg" 
+                         alt="John smiling" 
+                         class="hover-img">
+                </div>
+            </div>
+            
+            <div class="heart-icon">❤</div>
+            
+            <!-- Bride Section -->
+            <div class="person">
+                <h3 class="person-title">Jane</h3>
+                <div class="image-container">
+                    <img src="girl03.avif" 
+                         alt="Jane - The Bride" 
+                         class="main-img">
+                    <img src="girl01.avif" 
+                         alt="Jane smiling" 
+                         class="hover-img">
+                </div>
+            </div>
+        </div>
+        
+        <div class="about-text">
+            <p>John and Jane first met in college during a mutual friend's birthday party in 2015. What started as friendship quickly blossomed into love. After seven wonderful years together, including two years of long-distance while Jane pursued her master's degree abroad, John proposed during a sunset picnic at their favorite park.</p>
+            <p>John is a software engineer who loves hiking and playing guitar. Jane is a pediatric nurse who enjoys painting and baking. Together they share a love for travel, having visited 12 countries together, and a passion for volunteering at animal shelters.</p>
+            <p>Their relationship is built on trust, laughter, and mutual respect. They can't wait to start this new chapter of their lives together as husband and wife.</p>
+        </div>
+    </section>
+
+    <!-- Save the Date Section -->
+    <section class="save-date-section" id="savedate">
+        <div class="save-date-card">
+            <div class="date-side">
+                <div class="date-number">15</div>
+                <div class="month-year">October 2023</div>
+                <div class="icon-heart">
+                    <i class="fas fa-heart"></i>
+                </div>
+                <div class="icon-ring">
+                    <i class="fas fa-ring"></i>
+                </div>
+            </div>
+            
+            <div class="details-side">
+                <h2 class="section-title">The Wedding Day</h2>
+                <p class="wedding-details">
+                    Join us as we begin our journey together in holy matrimony. 
+                    We invite you to celebrate this special moment with our families 
+                    as we exchange vows and start our new life together.
+                </p>
+                <div class="location">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>Grand Palace, Mumbai</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <section class="invitation-section">
+        <div class="invitation-card">
+            <div class="card-header">
+                <h1>Wedding Invitation</h1>
+                <h2>You're Cordially Invited</h2>
+            </div>
+            
+            <div class="card-body">
+                <div class="couple-names">
+                    John <span style="font-size: 1.5rem;">&</span> Jane
+                </div>
+                
+                <div class="invitation-text">
+                    <p>Together with their families</p>
+                    <p>request the pleasure of your company</p>
+                    <p>as they exchange vows and begin their new life together</p>
+                </div>
+                
+                <div class="details">
+                    <div class="detail-item">
+                        <h3>Date</h3>
+                        <p>October 15, 2023</p>
+                    </div>
+                    
+                    <div class="detail-item">
+                        <h3>Time</h3>
+                        <p>4:30 PM</p>
+                    </div>
+                    
+                    <div class="detail-item">
+                        <h3>Location</h3>
+                        <p>Grand Palace<br>Mumbai, India</p>
+                    </div>
+                </div>
+                
+                <a href="#rsvp" class="rsvp-button">RSVP</a>
+            </div>
+        </div>
+    </section>
+
+     <section class="events-section" id="events">
+        <h2 class="section-title">Wedding Events</h2>
+        
+        <div class="events-grid">
+            <!-- Event 1 -->
+            <div class="event-card">
+                <img src="https://images.unsplash.com/photo-1523438885200-e635ba2c371e?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80" 
+                     alt="Engagement Ceremony" 
+                     class="event-image">
+                
+                <div class="event-overlay">
+                    <div class="event-content">
+                        <h3 class="event-title">Engagement</h3>
+                        <div class="event-date">October 14, 2023 • 6:00 PM</div>
+                        <div class="event-description">
+                            Join us for our intimate engagement ceremony at the Rose Garden. Cocktail attire requested.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Event 2 -->
+            <div class="event-card">
+                <img src="https://images.unsplash.com/photo-1511795409834-ef04bbd61622?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" 
+                     alt="Wedding Ceremony" 
+                     class="event-image">
+                
+                <div class="event-overlay">
+                    <div class="event-content">
+                        <h3 class="event-title">Wedding</h3>
+                        <div class="event-date">October 15, 2023 • 4:30 PM</div>
+                        <div class="event-description">
+                            Our sacred wedding ceremony at the Grand Palace. Traditional attire welcome.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Event 3 -->
+            <div class="event-card">
+                <img src="wedding04.avif" 
+                     alt="Reception Party" 
+                     class="event-image">
+                
+                <div class="event-overlay">
+                    <div class="event-content">
+                        <h3 class="event-title">Reception</h3>
+                        <div class="event-date">October 15, 2023 • 7:00 PM</div>
+                        <div class="event-description">
+                            Celebration dinner and dancing under the stars. Formal attire requested.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+        <section class="family-section" id="family">
+        <h2 class="section-title">Our Families</h2>
+        
+        <div class="family-groups">
+            <!-- Groom's Family -->
+            <div class="family-group">
+                <h3 class="family-title">Groom's Family</h3>
+                <div class="family-grid">
+                    <div class="family-member">
+                        <img src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80" 
+                             alt="Groom's Father" 
+                             class="family-img">
+                        <div class="member-info">
+                            <div class="member-name">Robert Smith</div>
+                            <div class="member-relation">Father</div>
+                        </div>
+                    </div>
+                    <div class="family-member">
+                        <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80" 
+                             alt="Groom's Mother" 
+                             class="family-img">
+                        <div class="member-info">
+                            <div class="member-name">Margaret Smith</div>
+                            <div class="member-relation">Mother</div>
+                        </div>
+                    </div>
+                    <div class="family-member">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80" 
+                             alt="Groom's Brother" 
+                             class="family-img">
+                        <div class="member-info">
+                            <div class="member-name">Michael Smith</div>
+                            <div class="member-relation">Brother</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Bride's Family -->
+            <div class="family-group">
+                <h3 class="family-title">Bride's Family</h3>
+                <div class="family-grid">
+                    <div class="family-member">
+                        <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80" 
+                             alt="Bride's Father" 
+                             class="family-img">
+                        <div class="member-info">
+                            <div class="member-name">David Johnson</div>
+                            <div class="member-relation">Father</div>
+                        </div>
+                    </div>
+                    <div class="family-member">
+                        <img src="https://images.unsplash.com/photo-1519699047748-de8e457a634e?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80" 
+                             alt="Bride's Mother" 
+                             class="family-img">
+                        <div class="member-info">
+                            <div class="member-name">Sarah Johnson</div>
+                            <div class="member-relation">Mother</div>
+                        </div>
+                    </div>
+                    <div class="family-member">
+                        <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80" 
+                             alt="Bride's Sister" 
+                             class="family-img">
+                        <div class="member-info">
+                            <div class="member-name">Emily Johnson</div>
+                            <div class="member-relation">Sister</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <!-- RSVP Section -->
+    <section class="rsvp-section" id="rsvp">
+        <h2 class="section-title">RSVP</h2>
+        
+        <form class="rsvp-form">
+            <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" class="form-control" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" class="form-control" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="guests">Number of Guests</label>
+                <select id="guests" class="form-control" required>
+                    <option value="">Select number</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5+</option>
+                </select>
+            </div>
+            
+            <div class="form-group">
+                <label>Will you be attending?</label>
+                <div class="radio-group">
+                    <div class="radio-option">
+                        <input type="radio" id="attend-yes" name="attending" value="yes" required>
+                        <label for="attend-yes">Yes, I'll be there!</label>
+                    </div>
+                    <div class="radio-option">
+                        <input type="radio" id="attend-no" name="attending" value="no">
+                        <label for="attend-no">Regretfully decline</label>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="form-group">
+                <label for="message">Message (Optional)</label>
+                <textarea id="message" class="form-control" rows="4"></textarea>
+            </div>
+            
+            <button type="submit" class="submit-btn">Submit RSVP</button>
+        </form>
+    </section>
+    
+    <!-- Memories Section -->
+    <section class="memories-section" id="memories">
+        <h2 class="section-title">Our Memories</h2>
+        
+        <div class="memories-grid">
+            <div class="memory-item">
+                <img src="home1.avif" 
+                     alt="Memory 1" 
+                     class="memory-img">
+                <div class="memory-overlay">
+                    <i class="fas fa-search-plus fa-3x" style="color: white;"></i>
+                </div>
+            </div>
+            <div class="memory-item">
+                <img src="home01.avif" 
+                     alt="Memory 2" 
+                     class="memory-img">
+                <div class="memory-overlay">
+                    <i class="fas fa-search-plus fa-3x" style="color: white;"></i>
+                </div>
+            </div>
+            <div class="memory-item">
+                <img src="home03.avif" 
+                     alt="Memory 3" 
+                     class="memory-img">
+                <div class="memory-overlay">
+                    <i class="fas fa-search-plus fa-3x" style="color: white;"></i>
+                </div>
+            </div>
+            <div class="memory-item">
+                <img src="wedding01.webp" 
+                     alt="Memory 4" 
+                     class="memory-img">
+                <div class="memory-overlay">
+                    <i class="fas fa-search-plus fa-3x" style="color: white;"></i>
+                </div>
+            </div>
+            <div class="memory-item">
+                <img src="weeding02.avif" 
+                     alt="Memory 5" 
+                     class="memory-img">
+                <div class="memory-overlay">
+                    <i class="fas fa-search-plus fa-3x" style="color: white;"></i>
+                </div>
+            </div>
+            <div class="memory-item">
+                <img src="wedding03.avif" 
+                     alt="Memory 6" 
+                     class="memory-img">
+                <div class="memory-overlay">
+                    <i class="fas fa-search-plus fa-3x" style="color: white;"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Gifts Section -->
+    <section class="gifts-section" id="gifts">
+        <h2 class="section-title">Gift Registry</h2>
+        
+        <p>Your presence at our wedding is the greatest gift of all. <br>However, if you wish to honor us with a gift, we've registered at these stores:</p>
+        
+        <div class="gift-options">
+            <div class="gift-card">
+                <div class="gift-icon">
+                    <i class="fas fa-home"></i>
+                </div>
+                <h3>Home Store</h3>
+                <p>Help us build our dream home together</p>
+                <a href="#" class="gift-btn">View Registry</a>
+            </div>
+            
+            <div class="gift-card">
+                <div class="gift-icon">
+                    <i class="fas fa-umbrella-beach"></i>
+                </div>
+                <h3>Honeymoon</h3>
+                <p>Contribute to our honeymoon fund</p>
+                <a href="#" class="gift-btn">Contribute</a>
+            </div>
+            
+            <div class="gift-card">
+                <div class="gift-icon">
+                    <i class="fas fa-heart"></i>
+                </div>
+                <h3>Charity</h3>
+                <p>Donate to our favorite charity</p>
+                <a href="#" class="gift-btn">Donate</a>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Thanks Section -->
+    <section class="thanks-section" id="thanks">
+        <div class="thanks-content">
+            <h2>Thank You</h2>
+            <p>We are so grateful to share this special day with you. <br>Your love and support mean the world to us.</p>
+            <p>John & Jane</p>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="social-icons">
+            <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-pinterest-p"></i></a>
+            <a href="#" class="social-icon"><i class="fas fa-envelope"></i></a>
+        </div>
+        <p>© 2023 John & Jane's Wedding</p>
+        <p>Made with <i class="fas fa-heart" style="color: var(--gold);"></i> for you</p>
+    </footer>
+      <!-- Include Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700&display=swap" rel="stylesheet">
+
+      <!-- Include Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <script>
+        const hamburger = document.querySelector('.hamburger');
+        const menu = document.querySelector('.menu');
+
+        hamburger.addEventListener('click', () => {
+            hamburger.classList.toggle('active');
+            menu.classList.toggle('active');
+        });
+
+        // Close menu when clicking on a link
+        document.querySelectorAll('.menu li a').forEach(link => {
+            link.addEventListener('click', () => {
+                hamburger.classList.remove('active');
+                menu.classList.remove('active');
+            });
+        });
+
+        // Change navbar style on scroll
+        window.addEventListener('scroll', () => {
+            const navbar = document.querySelector('.navbar');
+            if (window.scrollY > 50) {
+                navbar.style.padding = '10px 0';
+                navbar.style.boxShadow = '0 2px 15px rgba(0, 0, 0, 0.15)';
+            } else {
+                navbar.style.padding = '15px 0';
+                navbar.style.boxShadow = '0 2px 10px rgba(0, 0, 0, 0.1)';
+            }
+        });
+    </script>
+</body>
+</html>
