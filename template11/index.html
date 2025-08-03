@@ -1,0 +1,976 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wedding</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="over">
+    <nav class="navbar">
+      <div class="nav-logo">Wedding</div>
+      <div class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#about">About us</a>
+        <a href="#our">Our Story</a>
+        <a href="#save">Save the Date</a>
+        <a href="#invite">Invitation</a>
+        <a href="#event">Events</a>
+        <a href="#timeline">Timeline</a>
+        <a href="#family">Our Family</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#rsvp">RSVP</a>
+        <a href="#contact">Contact us</a>
+      </div>
+      <div class="hamburger" onclick="toggleMenu()">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </nav>
+
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="#home">Home</a>
+        <a href="#about">About us</a>
+        <a href="#our">Our Story</a>
+        <a href="#save">Save the Date</a>
+        <a href="#invite">Invitation</a>
+        <a href="#event">Events</a>
+        <a href="#timeline">Timeline</a>
+        <a href="#family">Our Family</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#rsvp">RSVP</a>
+        <a href="#contact">Contact us</a>
+    </div>
+    <div class="homecontainer" id="home">
+      <img src="home.png" alt="" />
+      <div class="overlay-text">
+        <div class="left-text">
+          <h2>Wedding Ceremony</h2>
+          <p>21st April, 202Y</p>
+          <p>Sharma Family</p>
+          <p>City Name</p>
+        </div>
+        <div class="right-text">
+          <h1>Bride</h1>
+          <h2>_&_</h2>
+          <h1>Groom</h1>
+        </div>
+      </div>
+    </div>
+
+    <div class="intro">
+      <h1>WELCOME TO OUR WEDDING</h1>
+      <p>
+        WE WITH FAMILY WANT TO SHARE THIS SPECIAL DAY WITH OUR LOVING FAMILIES,
+        RELATIVES AND FRIENDS, WE HOPE YOU'LL ENJOY IT AS MUCH AS WE DO!
+      </p>
+    </div>
+
+    <div class="about-section" id="about">
+      <div class="about-left">
+        <h2>About us</h2>
+        <p>
+          WELCOMETO OUR<br />
+          WEDDING !<br />
+          WE WANT TO SHARE<br />
+          THIS SPECIAL DAY<br />
+          WITH OUR LOVING<br />
+          FAMILIES, RELATIVES<br />
+          AND FRIENDS, WE<br />
+          HOPE YOU'LL ENJOY IT<br />
+          AS MUCH AS WE DO!
+        </p>
+      </div>
+
+      <div class="about-right">
+        <div class="profile">
+          <img src="me-removebg-preview.png" alt="Bride" />
+          <div class="profile-text">
+            <h1>Bride</h1>
+            <p><strong>D/o</strong> Mrs. & Mr. Name Surname</p>
+            <p><strong>Grand D/o</strong> Mrs. & Mr. Name Surname</p>
+          </div>
+        </div>
+
+        <div class="profile">
+          <div class="profile-text">
+            <h1>Groom</h1>
+            <p><strong>S/o</strong> Mrs. & Mr. Name Surname</p>
+            <p><strong>Grand S/o</strong> Mrs. & Mr. Name Surname</p>
+          </div>
+          <img src="me-removebg-preview.png" alt="Groom" />
+        </div>
+      </div>
+    </div>
+
+    <section class="our-story-section" id="our">
+      <div class="our-story-container">
+        <div class="our-story-image">
+          <img src="me-removebg-preview.png" alt="Flower" />
+        </div>
+        <div class="our-story-text">
+          <h2>Our Story</h2>
+          <p>
+            It all began with a simple moment that turned into something
+            unforgettable. From laughter-filled conversations to shared dreams
+            and quiet support, we grew together — as friends, as partners, and
+            now as soulmates. As we step into this new chapter, we look forward
+            to forever, with love, laughter, and all of you by our side.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="invite-section" id="invite">
+      <img src="save2.png" alt="Invitation Image" class="invite-bg" />
+      <div class="invite-text">
+        <h2>You are cordially invited to the wedding of</h2>
+        <h1>Groom <span>&</span> Bride</h1>
+        <p>
+          Together with their families<br />
+          invite you to their<br />
+          <strong>Wedding Ceremony</strong><br />
+          <strong>21ST APRIL, 202Y</strong><br />
+          Venue Name, Address, City, State<br />
+          as per programs
+        </p>
+      </div>
+    </section>
+
+    <section class="save-the-date-section" id="save">
+      <img src="save.png" alt="Save the Date" class="save-bg" />
+      <div class="save-text">
+        <h1>Save the Date</h1>
+        <h2>21st April, 202Y</h2>
+        <h1>Bride <span>&</span> Groom</h1>
+        <p>Venue Name Here</p>
+      </div>
+    </section>
+
+    <section class="programs">
+      <h2 class="program-title">Wedding Programs</h2>
+      <p class="program-subtitle">
+        YOU ARE CORDIALLY INVITED TO ATTEND OUR WEDDING PROGRAMS
+      </p>
+
+      <div class="program-cards">
+        <div class="program-card">
+          <h3>Haldi</h3>
+          <h4>20 April, 202Y</h4>
+          <p>at <strong>1.00 pm</strong></p>
+          <p>Venue : VenueNameHere</p>
+        </div>
+
+        <div class="program-card">
+          <h3>Mehandi</h3>
+          <h4>20 April, 202Y</h4>
+          <p>at <strong>4.00 pm</strong></p>
+          <p>Venue : VenueNameHere</p>
+        </div>
+
+        <div class="program-card">
+          <h3>Sangeet</h3>
+          <h4>20 April, 202Y</h4>
+          <p>at <strong>1.00 pm</strong></p>
+          <p>Venue : VenueNameHere</p>
+        </div>
+      </div>
+
+      <div class="program-footer">❁❁❁</div>
+    </section>
+    <section class="wedding-ceremony">
+      <h2 class="ceremony-title">Wedding Ceremony</h2>
+      <h3 class="ceremony-date">21 April, 202Y</h3>
+      <p class="ceremony-time">at <strong>7.00 pm</strong></p>
+
+      <div class="ceremony-venue">
+        <em>Venue : Venue Name Here</em>
+      </div>
+
+      <p class="ceremony-note"><strong>Note :</strong> Any Note Here</p>
+    </section>
+
+    <section class="wedding-timeline" id="timeline">
+      <h2 class="timeline-heading">Wedding Timeline</h2>
+      <div class="timeline-container">
+        <!-- Repeat block 15 times -->
+        <div class="timeline-item">
+          <p class="timeline-date">20 April, 202Y</p>
+          <h3 class="timeline-event">Breakfast</h3>
+          <p class="timeline-time">at 1.00 pm</p>
+        </div>
+        <div class="timeline-item">
+          <p class="timeline-date">20 April, 202Y</p>
+          <h3 class="timeline-event">Breakfast</h3>
+          <p class="timeline-time">at 1.00 pm</p>
+        </div>
+        <div class="timeline-item">
+          <p class="timeline-date">20 April, 202Y</p>
+          <h3 class="timeline-event">Breakfast</h3>
+          <p class="timeline-time">at 1.00 pm</p>
+        </div>
+        <div class="timeline-item">
+          <p class="timeline-date">20 April, 202Y</p>
+          <h3 class="timeline-event">Breakfast</h3>
+          <p class="timeline-time">at 1.00 pm</p>
+        </div>
+        <div class="timeline-item">
+          <p class="timeline-date">20 April, 202Y</p>
+          <h3 class="timeline-event">Breakfast</h3>
+          <p class="timeline-time">at 1.00 pm</p>
+        </div>
+        <div class="timeline-item">
+          <p class="timeline-date">20 April, 202Y</p>
+          <h3 class="timeline-event">Breakfast</h3>
+          <p class="timeline-time">at 1.00 pm</p>
+        </div>
+        <div class="timeline-item">
+          <p class="timeline-date">20 April, 202Y</p>
+          <h3 class="timeline-event">Breakfast</h3>
+          <p class="timeline-time">at 1.00 pm</p>
+        </div>
+        <div class="timeline-item">
+          <p class="timeline-date">20 April, 202Y</p>
+          <h3 class="timeline-event">Breakfast</h3>
+          <p class="timeline-time">at 1.00 pm</p>
+        </div>
+        <div class="timeline-item">
+          <p class="timeline-date">20 April, 202Y</p>
+          <h3 class="timeline-event">Breakfast</h3>
+          <p class="timeline-time">at 1.00 pm</p>
+        </div>
+        <div class="timeline-item">
+          <p class="timeline-date">20 April, 202Y</p>
+          <h3 class="timeline-event">Breakfast</h3>
+          <p class="timeline-time">at 1.00 pm</p>
+        </div>
+        <div class="timeline-item">
+          <p class="timeline-date">20 April, 202Y</p>
+          <h3 class="timeline-event">Breakfast</h3>
+          <p class="timeline-time">at 1.00 pm</p>
+        </div>
+        <div class="timeline-item">
+          <p class="timeline-date">20 April, 202Y</p>
+          <h3 class="timeline-event">Breakfast</h3>
+          <p class="timeline-time">at 1.00 pm</p>
+        </div>
+        <div class="timeline-item">
+          <p class="timeline-date">20 April, 202Y</p>
+          <h3 class="timeline-event">Breakfast</h3>
+          <p class="timeline-time">at 1.00 pm</p>
+        </div>
+        <div class="timeline-item">
+          <p class="timeline-date">20 April, 202Y</p>
+          <h3 class="timeline-event">Breakfast</h3>
+          <p class="timeline-time">at 1.00 pm</p>
+        </div>
+        <div class="timeline-item">
+          <p class="timeline-date">20 April, 202Y</p>
+          <h3 class="timeline-event">Breakfast</h3>
+          <p class="timeline-time">at 1.00 pm</p>
+        </div>
+      </div>
+    </section>
+
+
+      <!-- OUR FAMILY Section -->
+  <section class="our-family" id="family">
+    <h2>OUR FAMILY</h2>
+
+    <div class="cards">
+      <div class="card">
+        <h3 class="card-title red">Welcome by</h3>
+        <img src="family-flower.png" alt="decor" class="decor-img">
+        <p class="card-names">
+          Name Surname<br>
+          Name Surname<br>
+          Name Surname
+        </p>
+      </div>
+
+      <div class="card">
+        <h3 class="card-title red">Special Request</h3>
+        <img src="family-flower.png" alt="decor" class="decor-img">
+        <p class="card-names">
+          Name Surname<br>
+          Name Surname<br>
+          Name Surname
+        </p>
+      </div>
+
+      <div class="card">
+        <h3 class="card-title red">RSVP</h3>
+        <img src="family-flower.png" alt="decor" class="decor-img">
+        <p class="card-names">
+          Name Surname<br>
+          Name Surname<br>
+          Name Surname
+        </p>
+      </div>
+    </div>
+
+    <p class="awaiting">Awaiting your presence</p>
+    <h2 class="main-name">Mrs. & Mr. Name Surname</h2>
+    <p class="address">Residence Address : 123, xyx Residency, City, State - 123456</p>
+
+    <button class="connect-btn">Rishton Ka Connection</button>
+
+    <p class="contact">+91 123456789, 987654321</p>
+    <p class="greeting-msg">Other Request & Greeting Message here</p>
+  </section>
+
+
+
+   <div class="floating-hearts" id="hearts"></div>
+    
+    <div class="container" id="gallery">
+        <div class="header">
+            <h1 class="title">WEDDING MEMORIES</h1>
+            <div class="decorative-ornament">❋ ❈ ❋</div>
+            <div class="decorative-line"></div>
+        </div>
+
+        <div class="gallery">
+            <div class="photo-container" onclick="openModal(this)">
+                <img src="https://images.unsplash.com/photo-1519225421980-715cb0215aed?w=400&h=300&fit=crop" alt="Wedding Ceremony" class="photo">
+                <div class="photo-overlay">
+                    <div class="overlay-text">Sacred Vows</div>
+                </div>
+            </div>
+
+            <div class="photo-container" onclick="openModal(this)">
+                <img src="https://images.unsplash.com/photo-1511285560929-80b456fea0bc?w=400&h=300&fit=crop" alt="Wedding Rings" class="photo">
+                <div class="photo-overlay">
+                    <div class="overlay-text">Eternal Bond</div>
+                </div>
+            </div>
+
+            <div class="photo-container" onclick="openModal(this)">
+                <img src="https://images.unsplash.com/photo-1606216794074-735e91aa2c92?w=400&h=300&fit=crop" alt="Wedding Celebration" class="photo">
+                <div class="photo-overlay">
+                    <div class="overlay-text">Joyful Celebration</div>
+                </div>
+            </div>
+
+            <div class="photo-container" onclick="openModal(this)">
+                <img src="https://images.unsplash.com/photo-1583939003579-730e3918a45a?w=400&h=300&fit=crop" alt="Couple Portrait" class="photo">
+                <div class="photo-overlay">
+                    <div class="overlay-text">Perfect Moment</div>
+                </div>
+            </div>
+
+            <div class="photo-container" onclick="openModal(this)">
+                <img src="https://images.unsplash.com/photo-1591604129939-f1efa4d9f7fa?w=400&h=300&fit=crop" alt="Wedding Details" class="photo">
+                <div class="photo-overlay">
+                    <div class="overlay-text">Beautiful Details</div>
+                </div>
+            </div>
+
+            <div class="photo-container" onclick="openModal(this)">
+                <img src="https://images.unsplash.com/photo-1520854221256-17451cc331bf?w=400&h=300&fit=crop" alt="Wedding Party" class="photo">
+                <div class="photo-overlay">
+                    <div class="overlay-text">Loved Ones</div>
+                </div>
+            </div>
+
+            <div class="photo-container" onclick="openModal(this)">
+                <img src="https://images.unsplash.com/photo-1465495976277-4387d4b0e4a6?w=400&h=300&fit=crop" alt="Wedding Dance" class="photo">
+                <div class="photo-overlay">
+                    <div class="overlay-text">First Dance</div>
+                </div>
+            </div>
+
+            <div class="photo-container" onclick="openModal(this)">
+                <img src="https://images.unsplash.com/photo-1519741497674-611481863552?w=400&h=300&fit=crop" alt="Wedding Reception" class="photo">
+                <div class="photo-overlay">
+                    <div class="overlay-text">Grand Reception</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal for enlarged images -->
+    <div id="imageModal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <div class="modal-content">
+            <img id="modalImage" src="" alt="">
+        </div>
+    </div>
+
+
+    <div class="floating-hearts" id="hearts"></div>
+    
+    <div class="container" >
+        <div class="header">
+            <h1 class="title">WEDDING MEMORIES</h1>
+            <div class="decorative-ornament">❋ ❈ ❋</div>
+            <div class="decorative-line"></div>
+        </div>
+
+        <!-- Video Link Input Section -->
+        <div class="video-input-section">
+            <div class="input-container">
+                <input type="text" id="videoUrl" placeholder="Paste your video URL here (YouTube, Vimeo, or direct video link)" class="video-input">
+                <button onclick="addVideo()" class="add-btn">Add Video</button>
+            </div>
+            <p class="help-text">Supported: YouTube, Vimeo, MP4, WebM, and other video formats</p>
+        </div>
+
+        <div class="gallery" id="gallery">
+            <!-- Sample videos will be added here -->
+        </div>
+    </div>
+
+    <!-- Modal for enlarged images -->
+    <div id="imageModal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <div class="modal-content">
+            <img id="modalImage" src="" alt="">
+        </div>
+    </div>
+
+
+
+     <div class="floating-hearts" id="hearts"></div>
+    
+    <div class="rsvp-container" id="rsvp">
+        <div class="header">
+            <h1 class="rsvp-title">RSVP</h1>
+            <p class="subtitle">Your presence will make our celebration even more special</p>
+            <p class="description">We look forward to seeing you! If you will be bringing a guest or have specific dietary restrictions, please make sure to note below. Please RSVP by Wedding Date.</p>
+        </div>
+
+        <div class="form-container" >
+            <form id="rsvpForm">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label class="form-label">FULL NAME</label>
+                        <input type="text" class="form-input" placeholder="Enter Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label">FULL ADDRESS</label>
+                        <input type="text" class="form-input" placeholder="Enter Your Address" required>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label class="form-label">MOBILE NUMBER</label>
+                        <input type="tel" class="form-input" placeholder="Enter Your Number" required>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label">E-MAIL</label>
+                        <input type="email" class="form-input" placeholder="Enter Your Email" required>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label class="form-label">NUMBER OF GUESTS</label>
+                        <input type="number" class="form-input" placeholder="Enter Your Number" min="1" required>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label">RESPONSE</label>
+                        <select class="form-input" required>
+                            <option value="">Select Response</option>
+                            <option value="accept">Accept the Pleasure</option>
+                            <option value="decline">Decline with Regret</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group full-width">
+                        <label class="form-label">NOTES FOR WEDDING COUPLE</label>
+                        <textarea class="form-input textarea" placeholder="Enter your Greetings, Thanks, any Notes....." rows="4"></textarea>
+                    </div>
+                </div>
+
+                <div class="submit-container">
+                    <button type="submit" class="submit-btn">SUBMIT</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+        <div class="contact-container" id="contact">
+        <div class="contact-card">
+            <h1>CONTACT US</h1>
+            
+            <div class="contact-grid">
+                <div class="contact-section">
+                    <div class="section-title">Wedding Family</div>
+                    <div class="contact-name">Mr. Name Surname</div>
+                    <div class="contact-mobile">Mob.: 99999999999</div>
+                </div>
+                
+                <div class="contact-section">
+                    <div class="section-title">Travel & Stay</div>
+                    <div class="contact-name">Mr. Name Surname</div>
+                    <div class="contact-mobile">Mob.: 99999999999</div>
+                </div>
+                
+                <div class="contact-section">
+                    <div class="section-title">RSVP</div>
+                    <div class="contact-name">Mr. Name Surname</div>
+                    <div class="contact-mobile">Mob.: 99999999999</div>
+                </div>
+                
+                <div class="contact-section">
+                    <div class="section-title">Special Assistance</div>
+                    <div class="contact-name">Mr. Name Surname</div>
+                    <div class="contact-mobile">Mob.: 99999999999</div>
+                </div>
+            </div>
+            
+            <div class="signature">From Our Hearts to Your Screens Made by the</div>
+            
+            <div class="couple-title">Bride & Groom</div>
+            
+            <div class="quote">"Join Us in Making Memories That Last a Lifetime"</div>
+        </div>
+    </div>
+
+    
+     <!-- NEW FULL-WIDTH FOOTER -->
+        <div class="wedding-footer">
+            <div class="footer-content">
+                <div class="signature">From Our Hearts to Your Screens</div>
+                <div class="floral-divider"></div>
+                <div class="couple-name">Alexandra & Christopher</div>
+                <div class="quote">"Join us as we begin our forever. Your presence is the only gift we desire as we celebrate our love story."</div>
+            </div>
+        </div>
+    </div>
+
+    
+
+    </div>
+    <script>
+      function toggleMenu() {
+        const menu = document.getElementById("mobileMenu");
+        menu.classList.toggle("show");
+      }
+
+
+      // Create floating hearts animation
+        function createHeart() {
+            const heart = document.createElement('div');
+            heart.className = 'heart';
+            heart.innerHTML = '♥';
+            heart.style.left = Math.random() * 100 + 'vw';
+            heart.style.animationDuration = (Math.random() * 10 + 10) + 's';
+            heart.style.fontSize = (Math.random() * 20 + 15) + 'px';
+            document.getElementById('hearts').appendChild(heart);
+
+            setTimeout(() => {
+                heart.remove();
+            }, 15000);
+        }
+
+        // Create hearts periodically
+        setInterval(createHeart, 3000);
+
+        // Create sparkles on hover
+        function createSparkle(x, y) {
+            const sparkle = document.createElement('div');
+            sparkle.className = 'sparkle';
+            sparkle.innerHTML = '✨';
+            sparkle.style.left = x + 'px';
+            sparkle.style.top = y + 'px';
+            document.body.appendChild(sparkle);
+
+            setTimeout(() => {
+                sparkle.remove();
+            }, 3000);
+        }
+
+        // Add sparkle effect on photo hover
+        document.querySelectorAll('.photo-container').forEach(container => {
+            container.addEventListener('mouseenter', (e) => {
+                const rect = e.target.getBoundingClientRect();
+                for (let i = 0; i < 5; i++) {
+                    setTimeout(() => {
+                        createSparkle(
+                            rect.left + Math.random() * rect.width,
+                            rect.top + Math.random() * rect.height
+                        );
+                    }, i * 100);
+                }
+            });
+        });
+
+        // Modal functionality
+        function openModal(element) {
+            const modal = document.getElementById('imageModal');
+            const modalImg = document.getElementById('modalImage');
+            const img = element.querySelector('.photo');
+            
+            modal.style.display = 'block';
+            modalImg.src = img.src;
+            modalImg.alt = img.alt;
+        }
+
+        function closeModal() {
+            document.getElementById('imageModal').style.display = 'none';
+        }
+
+        // Close modal when clicking outside the image
+        document.getElementById('imageModal').addEventListener('click', (e) => {
+            if (e.target === e.currentTarget) {
+                closeModal();
+            }
+        });
+
+        // Close modal with Escape key
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') {
+                closeModal();
+            }
+        });
+
+        // Add entrance animation to gallery items
+        window.addEventListener('load', () => {
+            const containers = document.querySelectorAll('.photo-container');
+            containers.forEach((container, index) => {
+                container.style.opacity = '0';
+                container.style.transform = 'translateY(50px)';
+                container.style.transition = 'all 0.6s ease';
+                
+                setTimeout(() => {
+                    container.style.opacity = '1';
+                    container.style.transform = 'translateY(0)';
+                }, index * 150);
+            });
+        });
+
+
+          // Create floating hearts animation
+        function createHeart() {
+            const heart = document.createElement('div');
+            heart.className = 'heart';
+            heart.innerHTML = '♥';
+            heart.style.left = Math.random() * 100 + 'vw';
+            heart.style.animationDuration = (Math.random() * 10 + 10) + 's';
+            heart.style.fontSize = (Math.random() * 20 + 15) + 'px';
+            document.getElementById('hearts').appendChild(heart);
+
+            setTimeout(() => {
+                heart.remove();
+            }, 15000);
+        }
+
+        // Create hearts periodically
+        setInterval(createHeart, 3000);
+
+        // Create sparkles on hover
+        function createSparkle(x, y) {
+            const sparkle = document.createElement('div');
+            sparkle.className = 'sparkle';
+            sparkle.innerHTML = '✨';
+            sparkle.style.left = x + 'px';
+            sparkle.style.top = y + 'px';
+            document.body.appendChild(sparkle);
+
+            setTimeout(() => {
+                sparkle.remove();
+            }, 3000);
+        }
+
+        // Video management
+        let videos = [];
+
+        // Extract video ID from YouTube URL
+        function getYouTubeVideoId(url) {
+            const regex = /(?:youtube\.com\/watch\?v=|youtu\.be\/|youtube\.com\/embed\/)([^&\n?#]+)/;
+            const match = url.match(regex);
+            return match ? match[1] : null;
+        }
+
+        // Extract video ID from Vimeo URL
+        function getVimeoVideoId(url) {
+            const regex = /vimeo\.com\/(\d+)/;
+            const match = url.match(regex);
+            return match ? match[1] : null;
+        }
+
+        // Check if URL is a direct video file
+        function isDirectVideoUrl(url) {
+            const videoExtensions = ['.mp4', '.webm', '.ogg', '.mov', '.avi'];
+            return videoExtensions.some(ext => url.toLowerCase().includes(ext));
+        }
+
+        // Add video to gallery
+        function addVideo() {
+            const input = document.getElementById('videoUrl');
+            const url = input.value.trim();
+            
+            if (!url) {
+                alert('Please enter a video URL');
+                return;
+            }
+
+            const videoData = {
+                id: Date.now(),
+                url: url,
+                type: 'unknown'
+            };
+
+            // Determine video type and create appropriate embed
+            if (getYouTubeVideoId(url)) {
+                videoData.type = 'youtube';
+                videoData.embedId = getYouTubeVideoId(url);
+            } else if (getVimeoVideoId(url)) {
+                videoData.type = 'vimeo';
+                videoData.embedId = getVimeoVideoId(url);
+            } else if (isDirectVideoUrl(url)) {
+                videoData.type = 'direct';
+            } else {
+                alert('Unsupported video URL. Please use YouTube, Vimeo, or direct video file links.');
+                return;
+            }
+
+            videos.push(videoData);
+            renderVideos();
+            input.value = '';
+        }
+
+        // Render all videos in the gallery
+        function renderVideos() {
+            const gallery = document.getElementById('gallery');
+            gallery.innerHTML = '';
+
+            videos.forEach(video => {
+                const container = document.createElement('div');
+                container.className = 'video-container';
+                container.onclick = () => playVideo(video);
+
+                let content = '';
+                
+                if (video.type === 'youtube') {
+                    content = `
+                        <img src="https://img.youtube.com/vi/${video.embedId}/maxresdefault.jpg" 
+                             alt="YouTube Video" class="video-thumbnail">
+                        <div class="play-button">▶</div>
+                        <div class="video-title">YouTube Video</div>
+                    `;
+                } else if (video.type === 'vimeo') {
+                    content = `
+                        <div class="video-thumbnail" style="background: linear-gradient(45deg, #1ab7ea, #1b7ea8); display: flex; align-items: center; justify-content: center; color: white; font-size: 24px; font-weight: bold;">
+                            Vimeo Video
+                        </div>
+                        <div class="play-button">▶</div>
+                        <div class="video-title">Vimeo Video</div>
+                    `;
+                } else if (video.type === 'direct') {
+                    content = `
+                        <video class="video-thumbnail" preload="metadata">
+                            <source src="${video.url}" type="video/mp4">
+                        </video>
+                        <div class="play-button">▶</div>
+                        <div class="video-title">Video File</div>
+                    `;
+                }
+
+                content += `<button class="delete-btn" onclick="deleteVideo(${video.id})" title="Delete video">×</button>`;
+                
+                container.innerHTML = content;
+                gallery.appendChild(container);
+            });
+
+            // Add entrance animation
+            const containers = document.querySelectorAll('.video-container');
+            containers.forEach((container, index) => {
+                container.style.opacity = '0';
+                container.style.transform = 'translateY(50px)';
+                container.style.transition = 'all 0.6s ease';
+                
+                setTimeout(() => {
+                    container.style.opacity = '1';
+                    container.style.transform = 'translateY(0)';
+                }, index * 150);
+            });
+        }
+
+        // Play video in modal
+        function playVideo(video) {
+            const modal = document.getElementById('imageModal');
+            const modalContent = modal.querySelector('.modal-content');
+            
+            let videoEmbed = '';
+            
+            if (video.type === 'youtube') {
+                videoEmbed = `
+                    <iframe width="100%" height="100%" 
+                            src="https://www.youtube.com/embed/${video.embedId}?autoplay=1" 
+                            frameborder="0" 
+                            allow="autoplay; encrypted-media" 
+                            allowfullscreen
+                            style="border-radius: 10px;">
+                    </iframe>
+                `;
+            } else if (video.type === 'vimeo') {
+                videoEmbed = `
+                    <iframe width="100%" height="100%" 
+                            src="https://player.vimeo.com/video/${video.embedId}?autoplay=1" 
+                            frameborder="0" 
+                            allow="autoplay; fullscreen" 
+                            allowfullscreen
+                            style="border-radius: 10px;">
+                    </iframe>
+                `;
+            } else if (video.type === 'direct') {
+                videoEmbed = `
+                    <video width="100%" height="100%" controls autoplay style="border-radius: 10px;">
+                        <source src="${video.url}" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                `;
+            }
+            
+            modalContent.innerHTML = videoEmbed;
+            modal.style.display = 'block';
+        }
+
+        // Delete video
+        function deleteVideo(id) {
+            event.stopPropagation(); // Prevent video from playing
+            videos = videos.filter(video => video.id !== id);
+            renderVideos();
+        }
+
+        // Add video with Enter key
+        document.getElementById('videoUrl').addEventListener('keypress', function(e) {
+            if (e.key === 'Enter') {
+                addVideo();
+            }
+        });
+
+        // Load sample videos on page load
+        window.addEventListener('load', () => {
+            // Add some sample videos for demonstration
+            videos = [
+                {
+                    id: 1,
+                    url: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+                    type: 'youtube',
+                    embedId: 'dQw4w9WgXcQ'
+                }
+            ];
+            renderVideos();
+        });
+
+        // Modal functionality
+        function openModal(element) {
+            const modal = document.getElementById('imageModal');
+            const modalImg = document.getElementById('modalImage');
+            const img = element.querySelector('.photo');
+            
+            modal.style.display = 'block';
+            modalImg.src = img.src;
+            modalImg.alt = img.alt;
+        }
+
+        function closeModal() {
+            document.getElementById('imageModal').style.display = 'none';
+        }
+
+        // Close modal when clicking outside the image
+        document.getElementById('imageModal').addEventListener('click', (e) => {
+            if (e.target === e.currentTarget) {
+                closeModal();
+            }
+        });
+
+        // Close modal with Escape key
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') {
+                closeModal();
+            }
+        });
+
+        // Add entrance animation to gallery items
+        window.addEventListener('load', () => {
+            const containers = document.querySelectorAll('.photo-container');
+            containers.forEach((container, index) => {
+                container.style.opacity = '0';
+                container.style.transform = 'translateY(50px)';
+                container.style.transition = 'all 0.6s ease';
+                
+                setTimeout(() => {
+                    container.style.opacity = '1';
+                    container.style.transform = 'translateY(0)';
+                }, index * 150);
+            });
+        });
+
+
+        // Create floating hearts animation
+        function createHeart() {
+            const heart = document.createElement('div');
+            heart.className = 'heart';
+            heart.innerHTML = '♥';
+            heart.style.left = Math.random() * 100 + 'vw';
+            heart.style.animationDuration = (Math.random() * 15 + 15) + 's';
+            heart.style.fontSize = (Math.random() * 20 + 20) + 'px';
+            document.getElementById('hearts').appendChild(heart);
+
+            setTimeout(() => {
+                heart.remove();
+            }, 20000);
+        }
+
+        // Create hearts periodically
+        setInterval(createHeart, 4000);
+
+        // Form submission handler
+        document.getElementById('rsvpForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // Add a subtle animation to the submit button
+            const submitBtn = document.querySelector('.submit-btn');
+            submitBtn.style.transform = 'scale(0.95)';
+            submitBtn.textContent = 'SUBMITTING...';
+            
+            setTimeout(() => {
+                submitBtn.style.transform = 'scale(1)';
+                submitBtn.textContent = 'SUBMITTED ✓';
+                submitBtn.style.background = 'linear-gradient(45deg, #27ae60, #2ecc71)';
+                
+                setTimeout(() => {
+                    alert('Thank you for your RSVP! We look forward to celebrating with you.');
+                    this.reset();
+                    submitBtn.textContent = 'SUBMIT';
+                    submitBtn.style.background = 'linear-gradient(45deg, #c0392b, #e74c3c)';
+                }, 1000);
+            }, 1000);
+        });
+
+        // Add input focus effects
+        document.querySelectorAll('.form-input').forEach(input => {
+            input.addEventListener('focus', function() {
+                this.parentElement.style.transform = 'scale(1.02)';
+            });
+            
+            input.addEventListener('blur', function() {
+                this.parentElement.style.transform = 'scale(1)';
+            });
+        });
+
+        // Add some initial hearts
+        for (let i = 0; i < 5; i++) {
+            setTimeout(createHeart, i * 1000);
+        }
+
+
+        
+    </script>
+  </body>
+</html>
